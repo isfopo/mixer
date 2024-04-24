@@ -1,0 +1,2 @@
+module SimpleCircuit:
+    signal gnd
