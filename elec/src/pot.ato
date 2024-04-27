@@ -1,0 +1,7 @@
+component Pot:
+    footprint = "Potentiometer_THT:Potentiometer_Alps_RK09K_Single_Vertical"
+    mpn = "potentiometer"
+
+    signal p1 ~ pin 1
+    signal p2 ~ pin 2
+    signal p3 ~ pin 3

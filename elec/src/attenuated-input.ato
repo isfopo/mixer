@@ -1,0 +1,14 @@
+from "jack.ato" import Jack
+from "pot.ato" import Pot
+
+module AttenuatedInput:
+    signal output
+    signal ground
+
+    in = new Jack
+    pot = new Pot
+
+    in.t ~ pot.p2;
+    in.s ~ ground;
+    pot.p3 ~ ground;
+    pot.p1 ~ output;

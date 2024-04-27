@@ -1,0 +1,9 @@
+component Jack:
+    footprint = "Connector_Audio:Jack_3.5mm_CUI_SJ1-3525N_Horizontal"
+    designator_prefix = "U"
+    mpn = "audio_jack"
+
+    signal t ~ pin T
+    signal r ~ pin R
+    signal s ~ pin S
+

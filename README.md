@@ -1,3 +1,3 @@
-# simple-circuit
+# mixer
 
-Wooohooo a new package!
+A small, 4 channel mixer for line-level sources.
