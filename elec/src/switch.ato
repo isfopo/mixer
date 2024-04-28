@@ -1,0 +1,7 @@
+component Switch:
+    footprint = "adafruit:EG1218"
+    mpn = "switch"
+
+    signal p1 ~ pin O
+    signal p2 ~ pin P
+    signal p3 ~ pin S

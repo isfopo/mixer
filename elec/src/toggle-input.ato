@@ -1,0 +1,14 @@
+from "switch.ato" import Switch
+from "jack.ato" import Jack
+
+module ToggleInput:
+    signal output
+    signal ground
+
+    in = new Jack
+    switch = new Switch
+
+    in.t ~ switch.p2;
+    in.s ~ ground;
+    switch.p3 ~ ground;
+    switch.p1 ~ output;

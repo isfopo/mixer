@@ -1,16 +1,13 @@
 from "jack.ato" import Jack
-from "attenuated-input.ato" import AttenuatedInput
+from "toggle-input.ato" import ToggleInput
 
-"""
-A 4 channel mixer for line-level mono signals
-"""
-module Mixer:
+module SwitchBoard:
     signal ground
 
-    in_1 = new AttenuatedInput
-    in_2 = new AttenuatedInput
-    in_3 = new AttenuatedInput
-    in_4 = new AttenuatedInput
+    in_1 = new ToggleInput
+    in_2 = new ToggleInput
+    in_3 = new ToggleInput
+    in_4 = new ToggleInput
 
     out = new Jack
 
